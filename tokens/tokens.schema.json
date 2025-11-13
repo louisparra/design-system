@@ -3,12 +3,20 @@
   "title": "Design tokens schema",
   "type": "object",
   "properties": {
-    "meta": { "type": "object" },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "version": { "type": "string" },
+        "owner": { "type": "string" }
+      },
+      "required": ["version", "owner"]
+    },
     "color": { "type": "object" },
     "type": { "type": "object" },
     "space": { "type": "object" },
     "radius": { "type": "object" },
     "motion": { "type": "object" }
   },
-  "required": ["meta"]
+  "required": ["meta"],
+  "additionalProperties": true
 }
