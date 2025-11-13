@@ -4,7 +4,16 @@
   "description": "Portable Design System Template: a plug-and-play starter with a single source of truth (tokens.json), Style Dictionary transforms, Storybook MDX, Figma starter, icon manifest, CI workflows, PR templates and examples to quickly ship consistent, accessible UI systems.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate:tokens": "node scripts/validate-tokens.js",
+    "build:tokens": "node scripts/build-tokens.js",
+    "start:storybook": "start-storybook -p 6006",
+    "build:storybook": "build-storybook -o dist/storybook"
+  },
+  "devDependencies": {
+    "ajv": "^8.0.0",
+    "style-dictionary": "^3.7.0",
+    "@storybook/react": "^7.0.0"
   },
   "repository": {
     "type": "git",
