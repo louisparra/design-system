@@ -1,0 +1,20 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "description": "Portable Design System Template: a plug-and-play starter with a single source of truth (tokens.json), Style Dictionary transforms, Storybook MDX, Figma starter, icon manifest, CI workflows, PR templates and examples to quickly ship consistent, accessible UI systems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisparra/design-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louisparra/design-system/issues"
+  },
+  "homepage": "https://github.com/louisparra/design-system#readme"
+}
